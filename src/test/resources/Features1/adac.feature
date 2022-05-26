@@ -1,3 +1,4 @@
+
 Feature: Booking a hotel in Adactin wen Application
 
 @Reg
@@ -12,6 +13,7 @@ Examples:
 
 |username|password|
 |Naveenprasad2095|N@veen123|
+|Vinodkumar123|29TQ93|
 
 
 @Sanity
