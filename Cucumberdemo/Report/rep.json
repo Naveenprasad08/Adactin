@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-05-26T04:09:39.300Z",
+        "start_timestamp": "2022-05-26T14:47:49.568Z",
         "line": 43,
         "name": "TC03_User Search hotel",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7666001884,
+              "duration": 111170394000,
               "status": "passed"
             },
             "line": 32,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 345409984,
+              "duration": 10742574600,
               "status": "passed"
             },
             "line": 33,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2518652975,
+              "duration": 6972184300,
               "status": "passed"
             },
             "line": 34,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 15125509,
+              "duration": 23407500,
               "status": "passed"
             },
             "line": 35,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 1320847248,
+              "duration": 6889951400,
               "status": "passed"
             },
             "line": 36,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 998854626,
+              "duration": 3376325800,
               "status": "passed"
             },
             "line": 37,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 153537,
+              "duration": 549000,
               "status": "passed"
             },
             "line": 38,
@@ -147,7 +147,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-05-26T04:09:52.289Z",
+        "start_timestamp": "2022-05-26T14:50:08.809Z",
         "line": 59,
         "name": "TC04_User Select hotel",
         "description": "",
@@ -157,7 +157,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3618989403,
+              "duration": 33448569500,
               "status": "passed"
             },
             "line": 47,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 431666520,
+              "duration": 424541500,
               "status": "passed"
             },
             "line": 48,
@@ -191,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 2513126030,
+              "duration": 6942398400,
               "status": "passed"
             },
             "line": 49,
@@ -203,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 15712975,
+              "duration": 133256400,
               "status": "passed"
             },
             "line": 50,
@@ -215,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 1266013379,
+              "duration": 1467516600,
               "status": "passed"
             },
             "line": 51,
@@ -261,7 +261,7 @@
           },
           {
             "result": {
-              "duration": 1368663956,
+              "duration": 1922241700,
               "status": "passed"
             },
             "line": 52,
@@ -273,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 1094186712,
+              "duration": 1570755500,
               "status": "passed"
             },
             "line": 53,
@@ -285,7 +285,7 @@
           },
           {
             "result": {
-              "duration": 8915035,
+              "duration": 14664600,
               "status": "passed"
             },
             "line": 54,
@@ -306,7 +306,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-05-26T04:10:02.611Z",
+        "start_timestamp": "2022-05-26T14:50:54.745Z",
         "line": 80,
         "name": "TC05_User enters appropriate details",
         "description": "",
@@ -316,7 +316,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3680066587,
+              "duration": 54069692800,
               "status": "passed"
             },
             "line": 64,
@@ -328,7 +328,7 @@
           },
           {
             "result": {
-              "duration": 503132126,
+              "duration": 173664700,
               "status": "passed"
             },
             "line": 65,
@@ -350,7 +350,7 @@
           },
           {
             "result": {
-              "duration": 3335287175,
+              "duration": 3433834600,
               "status": "passed"
             },
             "line": 66,
@@ -362,7 +362,7 @@
           },
           {
             "result": {
-              "duration": 16888728,
+              "duration": 24772600,
               "status": "passed"
             },
             "line": 67,
@@ -374,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 1536181306,
+              "duration": 583989500,
               "status": "passed"
             },
             "line": 68,
@@ -420,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 1110059794,
+              "duration": 1220810800,
               "status": "passed"
             },
             "line": 69,
@@ -432,7 +432,7 @@
           },
           {
             "result": {
-              "duration": 1093855416,
+              "duration": 1137417700,
               "status": "passed"
             },
             "line": 70,
@@ -444,7 +444,7 @@
           },
           {
             "result": {
-              "duration": 10291536,
+              "duration": 16041900,
               "status": "passed"
             },
             "line": 71,
@@ -456,7 +456,7 @@
           },
           {
             "result": {
-              "duration": 1542078136,
+              "duration": 1413253500,
               "status": "passed"
             },
             "line": 72,
@@ -502,7 +502,7 @@
           },
           {
             "result": {
-              "duration": 7169219812,
+              "duration": 7071281900,
               "status": "passed"
             },
             "line": 73,
@@ -514,7 +514,7 @@
           },
           {
             "result": {
-              "duration": 53390452,
+              "duration": 18154500,
               "status": "passed"
             },
             "line": 74,
