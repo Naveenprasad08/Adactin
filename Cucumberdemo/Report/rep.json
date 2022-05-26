@@ -1,0 +1,545 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-26T04:09:39.300Z",
+        "line": 43,
+        "name": "TC03_User Search hotel",
+        "description": "",
+        "id": "booking-a-hotel-in-adactin-wen-application;tc03-user-search-hotel;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7666001884,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User launch Adactin Web Application",
+            "match": {
+              "location": "Stepdefinition.user_launch_Adactin_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345409984,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enter valid \"Naveenprasad2095\" and \"N@veen123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Naveenprasad2095\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"N@veen123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Stepdefinition.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2518652975,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks login Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15125509,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User verify seach hotel page is displayed",
+            "match": {
+              "location": "Stepdefinition.user_verify_seach_hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1320847248,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User Selects the \"Sydney\",\"Hotel Sunshine\",\"Double\",\"2 - Two\",\"22/05/2022\",\"23/05/2022\",\"2 - Two\",\"\u003cChildren per Room\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"22/05/2022\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"23/05/2022\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"\u003cChildren per Room\u003e\"",
+                  "offset": 98
+                }
+              ],
+              "location": "Stepdefinition.user_Selects_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998854626,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User clicks Search Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153537,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User select hotel page is displayed",
+            "match": {
+              "location": "Stepdefinition.user_select_hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-26T04:09:52.289Z",
+        "line": 59,
+        "name": "TC04_User Select hotel",
+        "description": "",
+        "id": "booking-a-hotel-in-adactin-wen-application;tc04-user-select-hotel;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3618989403,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User launch Adactin Web Application",
+            "match": {
+              "location": "Stepdefinition.user_launch_Adactin_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431666520,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User enter valid \"Naveenprasad2095\" and \"N@veen123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Naveenprasad2095\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"N@veen123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Stepdefinition.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2513126030,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User clicks login Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15712975,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User verify seach hotel page is displayed",
+            "match": {
+              "location": "Stepdefinition.user_verify_seach_hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1266013379,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Selects the \"Sydney\",\"Hotel Sunshine\",\"Double\",\"2 - Two\",\"22/05/2022\",\"23/05/2022\",\"2 - Two\",\"\u003cChildren per Room\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"22/05/2022\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"23/05/2022\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"\u003cChildren per Room\u003e\"",
+                  "offset": 98
+                }
+              ],
+              "location": "Stepdefinition.user_Selects_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1368663956,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User clicks Search Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1094186712,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User select hotel by clicking the radio Button and continue Button",
+            "match": {
+              "location": "Stepdefinition.user_select_hotel_by_clicking_the_radio_Button_and_continue_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8915035,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Book hotel page is displayed",
+            "match": {
+              "location": "Stepdefinition.book_hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-26T04:10:02.611Z",
+        "line": 80,
+        "name": "TC05_User enters appropriate details",
+        "description": "",
+        "id": "booking-a-hotel-in-adactin-wen-application;tc05-user-enters-appropriate-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3680066587,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User launch Adactin Web Application",
+            "match": {
+              "location": "Stepdefinition.user_launch_Adactin_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 503132126,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User enter valid \"Naveenprasad2095\" and \"N@veen123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Naveenprasad2095\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"N@veen123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Stepdefinition.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3335287175,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User clicks login Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16888728,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User verify seach hotel page is displayed",
+            "match": {
+              "location": "Stepdefinition.user_verify_seach_hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1536181306,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User Selects the \"Sydney\",\"Hotel Sunshine\",\"Double\",\"2 - Two\",\"22/05/2022\",\"23/05/2022\",\"2 - Two\",\"\u003cChildren per Room\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"22/05/2022\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"23/05/2022\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"\u003cChildren per Room\u003e\"",
+                  "offset": 98
+                }
+              ],
+              "location": "Stepdefinition.user_Selects_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1110059794,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User clicks Search Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1093855416,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User select hotel by clicking the radio Button and continue Button",
+            "match": {
+              "location": "Stepdefinition.user_select_hotel_by_clicking_the_radio_Button_and_continue_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10291536,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Book hotel page is displayed",
+            "match": {
+              "location": "Stepdefinition.book_hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1542078136,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User enters the valid \"Naveen\",\"Prasad\",\"Coimbatore\",\"6557354135344668\",\"VISA\",\"March\",\"\u003cSelect Year\u003e\",\"236\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Naveen\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Prasad\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Coimbatore\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"6557354135344668\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"\u003cSelect Year\u003e\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"236\"",
+                  "offset": 103
+                }
+              ],
+              "location": "Stepdefinition.user_enters_the_valid(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7169219812,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User clicks BookNow Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_BookNow_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53390452,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User Booking confirmation page is displayed",
+            "match": {
+              "location": "Stepdefinition.user_Booking_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Booking a hotel in Adactin wen Application",
+    "description": "",
+    "id": "booking-a-hotel-in-adactin-wen-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features1/adac.feature",
+    "tags": []
+  }
+]
