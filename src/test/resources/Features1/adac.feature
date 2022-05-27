@@ -28,7 +28,7 @@ Examples:
 
 |username|password|
 |Naveenprasad209|N@veen12|
-
+|sdhfjsf|dsjhfds|
 @E2E
 Scenario Outline: TC03_User Search hotel 
 Given User launch Adactin Web Application
